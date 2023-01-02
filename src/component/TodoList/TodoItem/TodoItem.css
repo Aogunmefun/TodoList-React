@@ -1,0 +1,30 @@
+.todoitem {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+.todoitem:hover {
+  box-shadow: 0 0 3px black;
+}
+
+.title {
+  width: 70%;
+}
+.title > div {
+  width: 100%;
+}
+.title:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  width: 30%;
+}
